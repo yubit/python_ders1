@@ -1,0 +1,11 @@
+deger1 = '{0}, {1}, {2}'.format('kedi', 'köpek', 'kuş')
+deger2 = '{}, {}, {}'.format('kedi', 'köpek', 'kuş')
+deger3 = '{2}, {1}, {0}'.format('kedi', 'köpek', 'kuş')
+deger4 = '{0}{1}{0}'.format('abra', 'cad')
+deger5 = 'Koordinatlar: {enlem}, {boylam}'.format(enlem='37.24N', boylam='-115.81W')
+
+print(deger1)
+print(deger2)
+print(deger3)
+print(deger4)
+print(deger5)
